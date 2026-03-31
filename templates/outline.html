@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&family=Noto+Sans+KR:wght@900&family=Noto+Sans+SC:wght@900&family=Inter:wght@900&family=Montserrat:wght@900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1290px;
+    height: 2796px;
+    overflow: hidden;
+    font-family: 'Montserrat', 'Inter', 'Noto Sans JP', 'Noto Sans SC', 'Noto Sans KR', sans-serif;
+  }
+
+  .screen {
+    width: 100%;
+    height: 100%;
+    background: {{backgroundColor}};
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 120px 60px;
+  }
+
+  /* Hollow outlined text */
+  .outline-text {
+    font-size: 200px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.95;
+    white-space: pre-line;
+    color: transparent;
+    -webkit-text-stroke: 4px {{strokeColor}};
+    letter-spacing: -0.02em;
+  }
+
+  /* Filled text for contrast */
+  .filled-text {
+    font-size: 200px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.95;
+    white-space: pre-line;
+    color: {{fillColor}};
+    letter-spacing: -0.02em;
+  }
+
+  /* Small label text */
+  .label {
+    font-size: 52px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: {{strokeColor}};
+    letter-spacing: 0.4em;
+    opacity: 0.5;
+    white-space: pre-line;
+  }
+
+  .divider {
+    width: 200px;
+    height: 6px;
+    background: {{strokeColor}};
+    opacity: 0.3;
+    border-radius: 3px;
+  }
+</style>
+</head>
+<body>
+<div class="screen">
+  <div class="label">{{label}}</div>
+  <div class="divider"></div>
+  <div class="outline-text">{{line1}}</div>
+  <div class="filled-text">{{line2}}</div>
+  <div class="outline-text">{{line3}}</div>
+</div>
+</body>
+</html>

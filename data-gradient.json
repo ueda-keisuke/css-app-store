@@ -1,0 +1,21 @@
+{
+  "template": "gradient",
+  "locales": {
+    "en": {
+      "line1": "BREAK\nYOUR\nLIMITS",
+      "line2": "TRAIN SMARTER"
+    },
+    "ja": {
+      "line1": "限界を\n超えろ",
+      "line2": "もっと賢く鍛えよう"
+    },
+    "zh": {
+      "line1": "突破\n你的\n极限",
+      "line2": "更聪明地训练"
+    },
+    "ko": {
+      "line1": "한계를\n넘어서",
+      "line2": "더 스마트하게 훈련"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "template": "duotone",
+  "locales": {
+    "en": {
+      "line1": "TWO\nWORLDS\nONE\nAPP",
+      "line2": "SEAMLESSLY CONNECTED",
+      "colorA": "#0D0D0D",
+      "colorB": "#F5F5F5"
+    },
+    "ja": {
+      "line1": "二つの\n世界\n一つの\nアプリ",
+      "line2": "シームレスに繋がる",
+      "colorA": "#0D0D0D",
+      "colorB": "#F5F5F5"
+    },
+    "zh": {
+      "line1": "两个\n世界\n一个\n应用",
+      "line2": "无缝连接",
+      "colorA": "#0D0D0D",
+      "colorB": "#F5F5F5"
+    },
+    "ko": {
+      "line1": "두 개의\n세계\n하나의\n앱",
+      "line2": "매끄럽게 연결",
+      "colorA": "#0D0D0D",
+      "colorB": "#F5F5F5"
+    }
+  }
+}

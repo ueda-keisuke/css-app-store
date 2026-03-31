@@ -5,17 +5,73 @@ Generate App Store screenshots with HTML/CSS templates and Playwright.
 One command. Four languages. Pixel-perfect PNGs ready for App Store Connect.
 
 <p align="center">
-  <img src="docs/example-default.png?v=2" width="180" alt="Default template - English">
-  <img src="docs/example-default-ja.png?v=2" width="180" alt="Default template - Japanese">
-  <img src="docs/example-default-zh.png?v=2" width="180" alt="Default template - Chinese">
-  <img src="docs/example-default-ko.png?v=2" width="180" alt="Default template - Korean">
+  <img src="docs/example-default.png?v=3" width="180" alt="Default template - English">
+  <img src="docs/example-default-ja.png?v=3" width="180" alt="Default template - Japanese">
+  <img src="docs/example-default-zh.png?v=3" width="180" alt="Default template - Chinese">
+  <img src="docs/example-default-ko.png?v=3" width="180" alt="Default template - Korean">
 </p>
 
 <p align="center">
-  <img src="docs/example-typography.png?v=2" width="180" alt="Typography template - English">
-  <img src="docs/example-typography-ja.png?v=2" width="180" alt="Typography template - Japanese">
-  <img src="docs/example-typography-zh.png?v=2" width="180" alt="Typography template - Chinese">
-  <img src="docs/example-typography-ko.png?v=2" width="180" alt="Typography template - Korean">
+  <img src="docs/example-typography.png?v=3" width="180" alt="Typography template - English">
+  <img src="docs/example-typography-ja.png?v=3" width="180" alt="Typography template - Japanese">
+  <img src="docs/example-typography-zh.png?v=3" width="180" alt="Typography template - Chinese">
+  <img src="docs/example-typography-ko.png?v=3" width="180" alt="Typography template - Korean">
+</p>
+
+<p align="center">
+  <img src="docs/example-glass.png?v=3" width="180" alt="Glass template - English">
+  <img src="docs/example-glass-ja.png?v=3" width="180" alt="Glass template - Japanese">
+  <img src="docs/example-glass-zh.png?v=3" width="180" alt="Glass template - Chinese">
+  <img src="docs/example-glass-ko.png?v=3" width="180" alt="Glass template - Korean">
+</p>
+
+<p align="center">
+  <img src="docs/example-gradient.png?v=3" width="180" alt="Gradient template - English">
+  <img src="docs/example-gradient-ja.png?v=3" width="180" alt="Gradient template - Japanese">
+  <img src="docs/example-gradient-zh.png?v=3" width="180" alt="Gradient template - Chinese">
+  <img src="docs/example-gradient-ko.png?v=3" width="180" alt="Gradient template - Korean">
+</p>
+
+<p align="center">
+  <img src="docs/example-neon.png?v=3" width="180" alt="Neon template - English">
+  <img src="docs/example-neon-ja.png?v=3" width="180" alt="Neon template - Japanese">
+  <img src="docs/example-neon-zh.png?v=3" width="180" alt="Neon template - Chinese">
+  <img src="docs/example-neon-ko.png?v=3" width="180" alt="Neon template - Korean">
+</p>
+
+<p align="center">
+  <img src="docs/example-outline.png?v=3" width="180" alt="Outline template - English">
+  <img src="docs/example-outline-ja.png?v=3" width="180" alt="Outline template - Japanese">
+  <img src="docs/example-outline-zh.png?v=3" width="180" alt="Outline template - Chinese">
+  <img src="docs/example-outline-ko.png?v=3" width="180" alt="Outline template - Korean">
+</p>
+
+<p align="center">
+  <img src="docs/example-retro.png?v=3" width="180" alt="Retro template - English">
+  <img src="docs/example-retro-ja.png?v=3" width="180" alt="Retro template - Japanese">
+  <img src="docs/example-retro-zh.png?v=3" width="180" alt="Retro template - Chinese">
+  <img src="docs/example-retro-ko.png?v=3" width="180" alt="Retro template - Korean">
+</p>
+
+<p align="center">
+  <img src="docs/example-split.png?v=3" width="180" alt="Split template - English">
+  <img src="docs/example-split-ja.png?v=3" width="180" alt="Split template - Japanese">
+  <img src="docs/example-split-zh.png?v=3" width="180" alt="Split template - Chinese">
+  <img src="docs/example-split-ko.png?v=3" width="180" alt="Split template - Korean">
+</p>
+
+<p align="center">
+  <img src="docs/example-duotone.png?v=3" width="180" alt="Duotone template - English">
+  <img src="docs/example-duotone-ja.png?v=3" width="180" alt="Duotone template - Japanese">
+  <img src="docs/example-duotone-zh.png?v=3" width="180" alt="Duotone template - Chinese">
+  <img src="docs/example-duotone-ko.png?v=3" width="180" alt="Duotone template - Korean">
+</p>
+
+<p align="center">
+  <img src="docs/example-vertical.png?v=3" width="180" alt="Vertical template - English">
+  <img src="docs/example-vertical-ja.png?v=3" width="180" alt="Vertical template - Japanese">
+  <img src="docs/example-vertical-zh.png?v=3" width="180" alt="Vertical template - Chinese">
+  <img src="docs/example-vertical-ko.png?v=3" width="180" alt="Vertical template - Korean">
 </p>
 
 ## The Problem
@@ -66,13 +122,29 @@ Everything that Adobe Flash once did — and that designers used to build as ras
 
 See [Mandy Michael's CodePen](https://codepen.io/mandymichael) for dozens of stunning pure-CSS text effects, [Jen Simmons' Layout Lab](https://labs.jensimmons.com/) for layout experiments, and [V-Fonts](https://v-fonts.com/) for variable font exploration.
 
-### Two included templates
+### 10 included templates
 
-**`default`** — Classic App Store style. Solid color background, bold headline at the top, app screenshot in a phone frame below. The workhorse layout that most apps use.
+**`default`** — Classic App Store style. Solid color background, bold headline at the top, app screenshot in a phone frame below.
 
-**`typography`** — Text-only promotional style. No screenshots — just bold 3D typography with banner accents and a patterned background. Great for feature announcements, seasonal campaigns, or apps where the brand message matters more than the UI.
+**`typography`** — Text-only with bold 3D typography, banner accents, and a patterned background.
 
-Both templates support `{{variable}}` substitution for text, colors, and image paths. Create your own by writing any HTML/CSS you want.
+**`glass`** — Glassmorphism card with frosted blur effect and badge label.
+
+**`gradient`** — Vivid gradient background with large display text.
+
+**`neon`** — Dark background with glowing neon text effect.
+
+**`outline`** — Bold outlined/hollow text on a minimal background.
+
+**`retro`** — Retro/vintage aesthetic with halftone patterns and warm tones.
+
+**`split`** — Split-screen layout for before/after or feature comparison.
+
+**`duotone`** — Duotone color treatment with high-contrast two-color palette.
+
+**`vertical`** — Vertical Japanese-style layout with `writing-mode: vertical-rl`.
+
+All templates support `{{variable}}` substitution for text, colors, and image paths. Create your own by writing any HTML/CSS you want.
 
 ## Quick Start
 
@@ -98,11 +170,19 @@ Output appears in `screenshots/`.
 css-app-store/
 ├── templates/
 │   ├── default.html          # App screenshot + headline
-│   └── typography.html       # Text-only with 3D effects
+│   ├── typography.html       # Text-only with 3D effects
+│   ├── glass.html            # Glassmorphism card
+│   ├── gradient.html         # Gradient background
+│   ├── neon.html             # Neon glow text
+│   ├── outline.html          # Outlined/hollow text
+│   ├── retro.html            # Retro/vintage style
+│   ├── split.html            # Split-screen layout
+│   ├── duotone.html          # Duotone color treatment
+│   └── vertical.html         # Vertical Japanese text
 ├── assets/
 │   └── placeholder.svg       # "Your App Here" placeholder
 ├── data.json                 # Data for default template
-├── data-typography.json      # Data for typography template
+├── data-*.json               # Data for each template (e.g., data-glass.json)
 ├── generate.mjs              # Playwright capture script
 ├── docs/                     # Example images for README
 └── screenshots/              # Generated output (gitignored)
@@ -120,11 +200,9 @@ Templates have the full power of the web platform — Google Fonts, SVG filters,
 ### Template ideas
 
 - **Gradient mesh background** with `conic-gradient` and `mix-blend-mode`
-- **Glassmorphism card** with `backdrop-filter: blur(20px)` over a blurred screenshot
-- **Vertical Japanese text** with `writing-mode: vertical-rl` and traditional typography
-- **Neon sign effect** with animated `text-shadow` glow
-- **Split-screen comparison** showing before/after states
 - **Kinetic typography** — Playwright captures a single frame, but you can set `animation-delay` to pick the exact pose
+- **Parallax depth** — layered elements with different scales for a 3D composition
+- **Manga/comic panel** — `clip-path` polygons with dynamic panel layouts
 
 ## App Store Screenshot Sizes
 

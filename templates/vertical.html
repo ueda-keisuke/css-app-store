@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700;900&family=Noto+Sans+JP:wght@700;900&family=Noto+Sans+KR:wght@900&family=Noto+Sans+SC:wght@900&family=Inter:wght@900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1290px;
+    height: 2796px;
+    overflow: hidden;
+    font-family: 'Noto Serif JP', 'Noto Sans JP', 'Noto Sans SC', 'Noto Sans KR', 'Inter', serif;
+  }
+
+  .screen {
+    width: 100%;
+    height: 100%;
+    background: #f5f0e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Washi paper texture overlay */
+  .screen::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0,0,0,0.01) 2px,
+        rgba(0,0,0,0.01) 4px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 3px,
+        rgba(0,0,0,0.008) 3px,
+        rgba(0,0,0,0.008) 6px
+      );
+  }
+
+  /* Ink wash circle */
+  .ink-circle {
+    position: absolute;
+    width: 1400px;
+    height: 1400px;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 0, 0, 0.08);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .ink-circle::after {
+    content: '';
+    position: absolute;
+    inset: 60px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+  }
+
+  /* Red accent stamp (hanko) */
+  .stamp {
+    position: absolute;
+    bottom: 200px;
+    right: 160px;
+    width: 140px;
+    height: 140px;
+    border: 5px solid #c41e3a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: #c41e3a;
+    transform: rotate(-15deg);
+    opacity: 0.85;
+  }
+
+  .vertical-text {
+    position: relative;
+    writing-mode: vertical-rl;
+    font-size: 160px;
+    font-weight: 900;
+    line-height: 1.5;
+    color: #1a1a1a;
+    text-align: center;
+    letter-spacing: 0.1em;
+    white-space: pre-line;
+  }
+
+  .vertical-sub {
+    position: absolute;
+    bottom: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.35);
+    letter-spacing: 0.5em;
+    white-space: nowrap;
+  }
+
+  /* Red accent line */
+  .accent-line {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 200px;
+    background: #c41e3a;
+  }
+</style>
+</head>
+<body>
+<div class="screen">
+  <div class="ink-circle"></div>
+  <div class="accent-line"></div>
+  <div class="vertical-text">{{line1}}</div>
+  <div class="vertical-sub">{{line2}}</div>
+  <div class="stamp">{{stamp}}</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "template": "outline",
+  "locales": {
+    "en": {
+      "label": "INTRODUCING",
+      "line1": "BOLD\nNEW",
+      "line2": "LOOK",
+      "line3": "SAME\nGREAT\nAPP",
+      "backgroundColor": "#fff",
+      "strokeColor": "#111",
+      "fillColor": "#111"
+    },
+    "ja": {
+      "label": "新登場",
+      "line1": "大胆な",
+      "line2": "刷新",
+      "line3": "変わらぬ\n品質",
+      "backgroundColor": "#fff",
+      "strokeColor": "#111",
+      "fillColor": "#111"
+    },
+    "zh": {
+      "label": "全新推出",
+      "line1": "全新",
+      "line2": "外观",
+      "line3": "同样\n优秀",
+      "backgroundColor": "#fff",
+      "strokeColor": "#111",
+      "fillColor": "#111"
+    },
+    "ko": {
+      "label": "새롭게 선보이는",
+      "line1": "대담한",
+      "line2": "변화",
+      "line3": "변함없는\n품질",
+      "backgroundColor": "#fff",
+      "strokeColor": "#111",
+      "fillColor": "#111"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "template": "retro",
+  "locales": {
+    "en": {
+      "banner": "ESTABLISHED 2024",
+      "line1": "CRAFT\nYOUR\nSTORY",
+      "line2": "ONE DAY AT A TIME"
+    },
+    "ja": {
+      "banner": "2024年創業",
+      "line1": "物語を\n紡ごう",
+      "line2": "一日一日を大切に"
+    },
+    "zh": {
+      "banner": "创立于2024年",
+      "line1": "书写\n你的\n故事",
+      "line2": "一天一个脚印"
+    },
+    "ko": {
+      "banner": "2024년 설립",
+      "line1": "당신의\n이야기를\n만들어",
+      "line2": "하루하루 소중하게"
+    }
+  }
+}

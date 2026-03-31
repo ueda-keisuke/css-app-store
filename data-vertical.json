@@ -1,0 +1,25 @@
+{
+  "template": "vertical",
+  "locales": {
+    "en": {
+      "line1": "CALM\nMIND",
+      "line2": "MEDITATION",
+      "stamp": "禅"
+    },
+    "ja": {
+      "line1": "心を\n静める",
+      "line2": "瞑 想",
+      "stamp": "禅"
+    },
+    "zh": {
+      "line1": "静心\n冥想",
+      "line2": "内 观",
+      "stamp": "禅"
+    },
+    "ko": {
+      "line1": "마음의\n평화",
+      "line2": "명 상",
+      "stamp": "禅"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&family=Noto+Sans+KR:wght@900&family=Noto+Sans+SC:wght@900&family=Inter:wght@900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1290px;
+    height: 2796px;
+    overflow: hidden;
+    font-family: 'Inter', 'Noto Sans JP', 'Noto Sans SC', 'Noto Sans KR', sans-serif;
+  }
+
+  .screen {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Glitch scanlines */
+  .screen::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 0, 0, 0.15) 2px,
+      rgba(0, 0, 0, 0.15) 4px
+    );
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  .glitch-wrapper {
+    position: relative;
+    padding: 120px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .glitch {
+    position: relative;
+    font-size: 200px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.95;
+    white-space: pre-line;
+    color: #fff;
+  }
+
+  /* Red shifted copy */
+  .glitch::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 100%;
+    height: 100%;
+    color: #ff0040;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+    mix-blend-mode: screen;
+  }
+
+  /* Cyan shifted copy */
+  .glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 8px;
+    width: 100%;
+    height: 100%;
+    color: #0ff;
+    text-align: center;
+    clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+    mix-blend-mode: screen;
+  }
+
+  .sub-text {
+    font-size: 64px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    white-space: pre-line;
+  }
+
+  /* Accent horizontal glitch bars */
+  .glitch-bar {
+    position: absolute;
+    height: 6px;
+    background: #ff0040;
+    mix-blend-mode: screen;
+  }
+  .glitch-bar:nth-child(1) { top: 30%; left: 5%; width: 40%; }
+  .glitch-bar:nth-child(2) { top: 55%; right: 5%; width: 30%; background: #0ff; }
+  .glitch-bar:nth-child(3) { top: 75%; left: 15%; width: 50%; }
+</style>
+</head>
+<body>
+<div class="screen">
+  <div class="glitch-bar"></div>
+  <div class="glitch-bar"></div>
+  <div class="glitch-bar"></div>
+  <div class="glitch-wrapper">
+    <div class="glitch" data-text="{{line1}}">{{line1}}</div>
+    <div class="sub-text">{{line2}}</div>
+  </div>
+</div>
+</body>
+</html>

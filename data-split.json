@@ -1,0 +1,21 @@
+{
+  "template": "split",
+  "locales": {
+    "en": {
+      "line1": "GAME\nOVER?",
+      "line2": "THINK AGAIN"
+    },
+    "ja": {
+      "line1": "ゲーム\nオーバー?",
+      "line2": "まだ終わらない"
+    },
+    "zh": {
+      "line1": "游戏\n结束?",
+      "line2": "再想想吧"
+    },
+    "ko": {
+      "line1": "게임\n오버?",
+      "line2": "다시 생각해봐"
+    }
+  }
+}

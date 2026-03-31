@@ -1,0 +1,25 @@
+{
+  "template": "neon",
+  "locales": {
+    "en": {
+      "line1": "NIGHT\nMODE",
+      "line2": "EASIER ON\nYOUR EYES",
+      "line3": "NOW AVAILABLE"
+    },
+    "ja": {
+      "line1": "ナイト\nモード",
+      "line2": "目に\nやさしく",
+      "line3": "新登場"
+    },
+    "zh": {
+      "line1": "夜间\n模式",
+      "line2": "更护眼\n更舒适",
+      "line3": "现已推出"
+    },
+    "ko": {
+      "line1": "나이트\n모드",
+      "line2": "눈이\n편안하게",
+      "line3": "지금 사용 가능"
+    }
+  }
+}

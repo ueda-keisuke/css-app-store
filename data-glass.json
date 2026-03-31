@@ -1,0 +1,25 @@
+{
+  "template": "glass",
+  "locales": {
+    "en": {
+      "badge": "NEW IN VERSION 3.0",
+      "line1": "Redesigned\nfrom scratch",
+      "line2": "A beautiful new interface\nthat gets out of your way"
+    },
+    "ja": {
+      "badge": "VERSION 3.0",
+      "line1": "ゼロから\n再設計",
+      "line2": "邪魔にならない\n美しい新インターフェース"
+    },
+    "zh": {
+      "badge": "3.0 全新版本",
+      "line1": "从零\n重新设计",
+      "line2": "全新界面\n简洁而不打扰"
+    },
+    "ko": {
+      "badge": "VERSION 3.0 출시",
+      "line1": "처음부터\n새로 설계",
+      "line2": "방해하지 않는\n아름다운 새 인터페이스"
+    }
+  }
+}
