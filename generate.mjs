@@ -5,11 +5,11 @@ import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-// --- 設定 ---
+// --- Config ---
 const dataPath = process.argv[2] || "data.json";
-const localeFilter = process.argv[3]; // 特定ロケールだけ生成したい場合
+const localeFilter = process.argv[3]; // optional: generate only a specific locale
 
-// --- データ読み込み ---
+// --- Load data ---
 const data = JSON.parse(readFileSync(resolve(__dirname, dataPath), "utf-8"));
 const templateName = data.template || "default";
 const templatePath = resolve(__dirname, "templates", `${templateName}.html`);
@@ -18,7 +18,7 @@ const templateHtml = readFileSync(templatePath, "utf-8");
 const outputDir = resolve(__dirname, "screenshots");
 mkdirSync(outputDir, { recursive: true });
 
-// --- テンプレート変数の置換 ---
+// --- Replace template variables ---
 function render(html, vars) {
   return html.replace(/\{\{(\w+)\}\}/g, (_, key) => {
     const val = vars[key];
@@ -27,7 +27,7 @@ function render(html, vars) {
   });
 }
 
-// --- メイン ---
+// --- Main ---
 async function main() {
   const browser = await chromium.launch();
 
@@ -41,7 +41,7 @@ async function main() {
       continue;
     }
 
-    // スクリーンショットパスを絶対パスに変換（file:// URL用）
+    // Convert screenshot path to absolute file:// URL
     const renderVars = { ...vars, lang };
     if (vars.screenshot) {
       renderVars.screenshot = `file://${resolve(__dirname, vars.screenshot)}`;
@@ -49,7 +49,7 @@ async function main() {
 
     const html = render(templateHtml, renderVars);
 
-    // 一時HTMLを書き出し（file://でimgを読むため）
+    // Write temp HTML so images can be loaded via file://
     const tmpHtmlPath = resolve(outputDir, `_tmp_${lang}.html`);
     writeFileSync(tmpHtmlPath, html);
 
