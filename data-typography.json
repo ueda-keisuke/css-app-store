@@ -2,40 +2,40 @@
   "template": "typography",
   "locales": {
     "en": {
-      "line1": "AMAZING\nFINDS",
-      "line2": "DISCOVER",
-      "line3": "EXPLORE",
-      "line4": "YOUR INTERESTS",
-      "backgroundColor": "#FF8C00",
+      "line1": "DEEP\nFOCUS",
+      "line2": "NO DISTRACTIONS",
+      "line3": "YOUR\nFLOW",
+      "line4": "STARTS HERE",
+      "backgroundColor": "#6C5CE7",
       "textColor": "#FFFFFF",
-      "accentColor": "#FF8C00"
+      "accentColor": "#6C5CE7"
     },
     "ja": {
-      "line1": "驚きの\n発見",
-      "line2": "見つけよう",
-      "line3": "探求",
-      "line4": "あなたの興味",
-      "backgroundColor": "#FF8C00",
+      "line1": "深い\n集中",
+      "line2": "気が散らない",
+      "line3": "最高の\nフロー",
+      "line4": "ここから始まる",
+      "backgroundColor": "#6C5CE7",
       "textColor": "#FFFFFF",
-      "accentColor": "#FF8C00"
+      "accentColor": "#6C5CE7"
     },
     "zh": {
-      "line1": "惊喜\n发现",
-      "line2": "探索更多",
-      "line3": "发掘",
-      "line4": "你的兴趣",
-      "backgroundColor": "#FF8C00",
+      "line1": "深度\n专注",
+      "line2": "零干扰",
+      "line3": "心流\n状态",
+      "line4": "从这里开始",
+      "backgroundColor": "#6C5CE7",
       "textColor": "#FFFFFF",
-      "accentColor": "#FF8C00"
+      "accentColor": "#6C5CE7"
     },
     "ko": {
-      "line1": "놀라운\n발견",
-      "line2": "찾아보세요",
-      "line3": "탐험",
-      "line4": "당신의 관심사",
-      "backgroundColor": "#FF8C00",
+      "line1": "깊은\n집중",
+      "line2": "방해 없이",
+      "line3": "나만의\n플로우",
+      "line4": "여기서 시작",
+      "backgroundColor": "#6C5CE7",
       "textColor": "#FFFFFF",
-      "accentColor": "#FF8C00"
+      "accentColor": "#6C5CE7"
     }
   }
 }

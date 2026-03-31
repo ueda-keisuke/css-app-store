@@ -2,27 +2,27 @@
   "template": "default",
   "locales": {
     "en": {
-      "headline": "learn 40+\nlanguages, math,\nmusic, and chess",
+      "headline": "stay focused,\nget more done",
       "screenshot": "assets/placeholder.svg",
-      "backgroundColor": "#FF9600",
+      "backgroundColor": "#6C5CE7",
       "textColor": "#FFFFFF"
     },
     "ja": {
-      "headline": "40以上の言語、\n算数、音楽、\nチェスを学ぼう",
+      "headline": "集中を保ち、\nもっと成果を出そう",
       "screenshot": "assets/placeholder.svg",
-      "backgroundColor": "#FF9600",
+      "backgroundColor": "#6C5CE7",
       "textColor": "#FFFFFF"
     },
     "zh": {
-      "headline": "学习40多种\n语言、数学、\n音乐和国际象棋",
+      "headline": "保持专注，\n高效完成更多",
       "screenshot": "assets/placeholder.svg",
-      "backgroundColor": "#FF9600",
+      "backgroundColor": "#6C5CE7",
       "textColor": "#FFFFFF"
     },
     "ko": {
-      "headline": "40개 이상의 언어,\n수학, 음악,\n체스를 배우세요",
+      "headline": "집중을 유지하고\n더 많은 성과를",
       "screenshot": "assets/placeholder.svg",
-      "backgroundColor": "#FF9600",
+      "backgroundColor": "#6C5CE7",
       "textColor": "#FFFFFF"
     }
   }
