@@ -42,12 +42,10 @@ async function main() {
     }
 
     // スクリーンショットパスを絶対パスに変換（file:// URL用）
-    const screenshotAbsPath = resolve(__dirname, vars.screenshot);
-    const renderVars = {
-      ...vars,
-      lang,
-      screenshot: `file://${screenshotAbsPath}`,
-    };
+    const renderVars = { ...vars, lang };
+    if (vars.screenshot) {
+      renderVars.screenshot = `file://${resolve(__dirname, vars.screenshot)}`;
+    }
 
     const html = render(templateHtml, renderVars);
 

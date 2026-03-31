@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700;900&family=Noto+Sans+KR:wght@700;900&family=Noto+Sans+SC:wght@700;900&family=Inter:wght@800;900&family=Montserrat:wght@800;900&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 1290px;
+    height: 2796px;
+    overflow: hidden;
+    font-family: 'Montserrat', 'Inter', 'Noto Sans JP', 'Noto Sans SC', 'Noto Sans KR', sans-serif;
+  }
+
+  .screen {
+    width: 100%;
+    height: 100%;
+    background: {{backgroundColor}};
+    /* 波状の背景パターン */
+    background-image:
+      repeating-radial-gradient(
+        ellipse at 30% 50%,
+        transparent 0,
+        transparent 80px,
+        rgba(255,255,255,0.04) 80px,
+        rgba(255,255,255,0.04) 160px
+      ),
+      repeating-radial-gradient(
+        ellipse at 70% 50%,
+        transparent 0,
+        transparent 100px,
+        rgba(255,255,255,0.06) 100px,
+        rgba(255,255,255,0.06) 200px
+      );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 120px 80px;
+  }
+
+  /* --- 3D 押し出しテキスト --- */
+  .text-3d {
+    font-size: 180px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.0;
+    color: {{textColor}};
+    text-shadow:
+      0  1px 0 hsl(30, 100%, 40%),
+      0  2px 0 hsl(30, 100%, 38%),
+      0  3px 0 hsl(30, 100%, 36%),
+      0  4px 0 hsl(30, 100%, 34%),
+      0  5px 0 hsl(30, 100%, 32%),
+      0  6px 0 hsl(30, 100%, 30%),
+      0  7px 0 hsl(30, 100%, 28%),
+      0  8px 0 hsl(30, 100%, 26%),
+      0  9px 15px rgba(0, 0, 0, 0.15),
+      0  9px 30px rgba(0, 0, 0, 0.08);
+    white-space: pre-line;
+  }
+
+  /* --- 白帯の上に乗るテキスト --- */
+  .text-banner {
+    display: inline-block;
+    background: #fff;
+    padding: 20px 60px;
+  }
+
+  .text-banner-inner {
+    font-size: 120px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: {{accentColor}};
+    line-height: 1.1;
+    text-align: center;
+    white-space: pre-line;
+  }
+
+  /* --- アンダーラインアクセント付きテキスト --- */
+  .text-underline {
+    position: relative;
+    display: inline-block;
+  }
+
+  .text-underline-inner {
+    font-size: 140px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: {{textColor}};
+    text-align: center;
+    line-height: 1.1;
+    white-space: pre-line;
+  }
+
+  .text-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 12px;
+    background: {{textColor}};
+  }
+
+  /* --- セクション区切り --- */
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+</style>
+</head>
+<body>
+<div class="screen">
+  <div class="section">
+    <div class="text-3d">{{line1}}</div>
+    <div class="text-banner">
+      <div class="text-banner-inner">{{line2}}</div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="text-3d">{{line3}}</div>
+    <div class="text-banner">
+      <div class="text-banner-inner">{{line4}}</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

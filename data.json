@@ -3,25 +3,25 @@
   "locales": {
     "en": {
       "headline": "learn 40+\nlanguages, math,\nmusic, and chess",
-      "screenshot": "assets/screenshot-en.webp",
+      "screenshot": "assets/placeholder.svg",
       "backgroundColor": "#FF9600",
       "textColor": "#FFFFFF"
     },
     "ja": {
       "headline": "40以上の言語、\n算数、音楽、\nチェスを学ぼう",
-      "screenshot": "assets/screenshot-ja.webp",
+      "screenshot": "assets/placeholder.svg",
       "backgroundColor": "#FF9600",
       "textColor": "#FFFFFF"
     },
     "zh": {
       "headline": "学习40多种\n语言、数学、\n音乐和国际象棋",
-      "screenshot": "assets/screenshot-zh.webp",
+      "screenshot": "assets/placeholder.svg",
       "backgroundColor": "#FF9600",
       "textColor": "#FFFFFF"
     },
     "ko": {
       "headline": "40개 이상의 언어,\n수학, 음악,\n체스를 배우세요",
-      "screenshot": "assets/screenshot-ko.webp",
+      "screenshot": "assets/placeholder.svg",
       "backgroundColor": "#FF9600",
       "textColor": "#FFFFFF"
     }
