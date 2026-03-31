@@ -5,17 +5,17 @@ Generate App Store screenshots with HTML/CSS templates and Playwright.
 One command. Four languages. Pixel-perfect PNGs ready for App Store Connect.
 
 <p align="center">
-  <img src="docs/example-default.png" width="180" alt="Default template - English">
-  <img src="docs/example-default-ja.png" width="180" alt="Default template - Japanese">
-  <img src="docs/example-default-zh.png" width="180" alt="Default template - Chinese">
-  <img src="docs/example-default-ko.png" width="180" alt="Default template - Korean">
+  <img src="docs/example-default.png?v=2" width="180" alt="Default template - English">
+  <img src="docs/example-default-ja.png?v=2" width="180" alt="Default template - Japanese">
+  <img src="docs/example-default-zh.png?v=2" width="180" alt="Default template - Chinese">
+  <img src="docs/example-default-ko.png?v=2" width="180" alt="Default template - Korean">
 </p>
 
 <p align="center">
-  <img src="docs/example-typography.png" width="180" alt="Typography template - English">
-  <img src="docs/example-typography-ja.png" width="180" alt="Typography template - Japanese">
-  <img src="docs/example-typography-zh.png" width="180" alt="Typography template - Chinese">
-  <img src="docs/example-typography-ko.png" width="180" alt="Typography template - Korean">
+  <img src="docs/example-typography.png?v=2" width="180" alt="Typography template - English">
+  <img src="docs/example-typography-ja.png?v=2" width="180" alt="Typography template - Japanese">
+  <img src="docs/example-typography-zh.png?v=2" width="180" alt="Typography template - Chinese">
+  <img src="docs/example-typography-ko.png?v=2" width="180" alt="Typography template - Korean">
 </p>
 
 ## The Problem
